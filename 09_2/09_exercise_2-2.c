@@ -1,5 +1,6 @@
 #include <stdio.h>
-#define SIZE 5
+#include <stdlib.h>
+#define SIZE 5      //매크로, 코드를 유연하게 사용할 수 있음
 
 int main(void)
 {

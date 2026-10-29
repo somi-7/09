@@ -15,7 +15,7 @@ int main(void)
     return 0;
 }
 
-void square_array(int a[], int size)
+void square_array(int a[], int size)    //void square_array(const int a[], int size)이라고 쓰면 이 함수 안에서 a의 요소를 읽기만 하겠다는 것
 {
     int i;
     for (i = 0; i < size; i++)
